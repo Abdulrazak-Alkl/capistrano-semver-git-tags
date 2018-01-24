@@ -1,4 +1,8 @@
+# Ignore rubymine files
+.idea/
+
 .rbenv-version
 .bundle
 /bin
 Gemfile.lock
+.idea/inspectionProfiles/
