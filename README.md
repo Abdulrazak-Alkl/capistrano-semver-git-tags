@@ -1,6 +1,6 @@
 ## Capistrano Semantic Version Git Tags
 
-A Capistrano plugin for adding a semantic version Git tag at each deployment, automatically.
+A Capistrano tasks for generating a semantic version Git tag at each deployment.
 
 ### Usage
 
