@@ -2,6 +2,11 @@
 
 A Capistrano tasks for generating a semantic version Git tag at each deployment.
 
+### Prerequisite
+
+- Capistrano 3
+- Git 2.1+
+
 ### Usage
 
 capistrano-semver-git-tags is available on [rubygems.org](https://rubygems.org/gems/capistrano-semver-git-tags).
@@ -11,7 +16,7 @@ to the `development` group of your Gemfile with `require: false`:
 ```ruby
 # Gemfile
 group :development do
-  gem 'capistrano-semver-git-tags', require: false
+  gem 'capistrano-semver-git-tags', '~> 0.1.0', require: false
 end
 ```
 

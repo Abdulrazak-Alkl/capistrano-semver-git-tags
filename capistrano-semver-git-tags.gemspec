@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'capistrano-semver-git-tags'
-  s.version     = '0.0.2'
+  s.version     = '0.1.0'
   s.summary     = 'Capistrano tasks to generate semantic version as a deploy git tag'
   s.license     = 'MIT'
 
